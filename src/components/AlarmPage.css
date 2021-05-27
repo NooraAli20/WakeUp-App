@@ -1,0 +1,110 @@
+
+  .alarm-section {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #555aa3;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s linear .5s;
+    position: relative;
+  }
+
+  .alarm-section-transition {
+    background-color: #f7d959;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 5s linear 1s;
+  } 
+
+  .alarm-section-transition .snooze-btn {
+    border: 4px solid rgba(255, 255, 255, 0.7);
+    transition: border 5s ease-in 0s;
+  }
+
+  .exit {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .logo {
+      padding-bottom: 3rem;
+  }
+
+  .snooze-btn {
+      height: 80px;
+      width: 208px;
+      border-radius: 500px;
+      border: none;
+      font-size: 35px;
+      background-color: #FCB64E;
+      border: 4px solid rgba(255, 255, 255, 0);
+      transition: all 1s ease-in 0s;
+  }
+
+  .snooze-btn:active {
+    transform: scale(.9);
+    background-color: #f7d959;
+    border: 5px solid #fff;
+    transition: background-color .1s ease-in;
+  }
+
+  .snooze-btn:focus {
+      outline: none;
+  }
+  
+  .snooze-btn-remove {
+    height: 60px;
+    color: #FCB64E;
+    width: 208px;
+    border-radius: 500px;
+    border: none;
+    font-size: 35px;
+    background-color: #FCB64E;
+    border: 4px solid rgba(255, 255, 255, 0);
+    transition: transform 1s ease-in 0s;  
+    transform: translateX(200%);
+  }
+  
+.alarm-img {
+    margin-bottom: 50px;
+}
+
+.alarm-img-off {
+    margin-top: 50px;
+    transform: rotate(180deg);
+    transition: all 1s ease-in-out;
+}
+
+.alarm-off-h1 {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #FCB64E;
+}
+
+aside {
+  font-size: 1.5rem;
+  height: 70px;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #555aa3;
+  border-radius: 10px;
+  color: #ffffff;
+  z-index: 9;
+  position: absolute;
+  bottom: 2.5rem;
+  box-shadow: 1px 2px 15px rgb(83, 83, 83);
+  letter-spacing: 1px;
+}

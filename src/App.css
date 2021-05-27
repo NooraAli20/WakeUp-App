@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.landing-wrapper {
+  background-color: #555aa3;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcome {
+  margin-top: -6rem;
+  padding-bottom: 3rem;
+  align-self: center;
+  width: 12rem;
+}
+
+.landing-wrapper a {
+  align-self: center;
+  width: 200px;
+  font-size: 40px;
+  color: black;
+  background: #fcb64e;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 50px;
+  margin: 4rem 0rem 0;
+}
